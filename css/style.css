@@ -1,0 +1,188 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "SF UI Display", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.hero {
+    padding-top: 40px;
+    min-height: 900px;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__content {}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 166px;
+    height: 51px;
+}
+
+.header__img {}
+
+.header__nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.header__corner {}
+
+.corner__list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.corner__item {}
+
+.corner__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.hero__content {
+    background-image: url(../img/Tesla-Wordmark-Red.png);
+}
+
+.hero__paragraph-wrap {}
+
+.hero__paragraph-top {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hero__paragraph-mid {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.hero__MidImg-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__MidImg {
+    display: flex;
+    width: 968px;
+    height: 450px;
+}
+
+.hero__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom__info {
+    display: flex;
+    column-gap: 40px;
+}
+
+.bottom__info2 {
+    display: flex;
+    column-gap: 40px;
+}
+
+.bottom__img1 {
+    width: 46px;
+    height: 34px;
+}
+
+.p {
+    margin: 0;
+    align-content: center;
+}
+
+.bottom__text1 {
+    display: flex;
+}
+
+.bottom__text2 {
+    display: flex;
+}
+
+.bottom__paragraph1 {}
+
+.bottom__paragraph2 {}
+
+.bottom__paragraph3 {}
+
+.bottom__img2 {
+    width: 30.5px;
+    height: 50px;
+}
+
+.bottom__drive {}
+
+.bottom__img3 {
+    width: 22px;
+    height: 22px;
+}
+
+.bottom__drive-p {}
+
+.bottom__button-wrap {}
+
+.bottom__link-btn {}
